@@ -7,27 +7,27 @@
 
 /src
 
-    /controller
+          /controller
     
-        AnimalShelterController.java
+                AnimalShelterController.java
 	
-    /model
+         /model
     
-        Animal.java
+                Animal.java
 	
-	PackAnimal
+	        PackAnimal
  
-        Pet
+                 Pet
 	
-	/packAnimals
+	        /packAnimals
  
-            Horse.java
+                     Horse.java
 	    
-	/pets
+	       /pets
  
-            Dog.java
+                     Dog.java
 	    
-            Cat.java
+                    Cat.java
 	    
     /service
     
