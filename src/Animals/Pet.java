@@ -1,10 +1,10 @@
-package Animal;
+package Animals;
 
 import java.time.LocalDate;
 
-public class PackAnimal extends Animal {
+public class Pet extends Animal {
 
-    public PackAnimal(String name, String commands, LocalDate birthDate) {
+    public Pet(String name, String commands, LocalDate birthDate) {
         super(name, commands, birthDate);
     }
 
@@ -15,6 +15,8 @@ public class PackAnimal extends Animal {
 
     @Override
     public void showCommands() {
-        System.out.println("Commands for pack animal " + this.name + ": " + commands);
+        System.out.println("Commands for " + this.name + ": " + commands);
     }
 }
+
+
